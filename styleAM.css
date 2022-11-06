@@ -1,0 +1,36 @@
+body {
+    background-color: orange;
+    font-family: "Regulator Nova"
+}
+
+header {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url(https://www.freewebheaders.com/wp-content/gallery/liquids-headers/crushed-orange-particles-and-bubbles-background-header.jpg);
+    height: 30vh;
+}
+
+
+
+main {
+    background-color: orangered;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+
+
+section div {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top:30px;
+    
+}

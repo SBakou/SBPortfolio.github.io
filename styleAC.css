@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    font-family:"Regulator Nova";
+    color: White;
+}
+
+header{
+    text-align: center;
+}
+
+.creaties {
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:20px;
+}
+
+
+@media (max-width:480px) {
+    .creaties {
+        width: 100vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:20px;
+    }
+}
+
+.creaties div img {
+    height: 300px;
+    width:100%;
+    box-shadow: 0px 0px 10px white;
+}
+
+@media (max-width:480px) {
+    .creaties div img {
+        height: 450px;
+        width:100%;
+        box-shadow: 0px 0px 10px white;
+    }
+}
+
+
+footer {
+    color:white;
+    text-align: center;
+}

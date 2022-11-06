@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    font-family: "Regulator Nova"
+}
+
+header {
+   text-align: center;
+   background-color: grey; 
+   padding: 20px;
+}
+
+footer {
+    text-align: center;
+}

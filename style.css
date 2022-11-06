@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    font-family: "Regulator Nova"
+}
+
+@media (min-width:480px) and (max-width:767px) {
+    body {
+        background-color: white;
+        font-family: "Regulator Nova"
+    }
+}
+
+#navbar {
+    color: skyblue;
+    font-weight: 600;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width:480px) {
+    #navbar {
+        color: skyblue;
+        font-weight: 600;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
+
+input {
+    color: white;
+    display: block;
+    position: fixed;
+    box-shadow: 0px 0px 10px black;
+    bottom: 20px;
+    right: 20px;
+    padding: 20px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/891/099/non_2x/abstract-gradient-background-light-blue-suitable-for-background-presentation-website-card-promotion-and-social-media-concept-vector.jpg);
+    font-size: 1.2em;;
+}
+
+header {
+    color: white;
+    height: 15vh;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/891/099/non_2x/abstract-gradient-background-light-blue-suitable-for-background-presentation-website-card-promotion-and-social-media-concept-vector.jpg);
+
+
+}
+
+.homepageinfo {
+    font-weight: 600;
+    color: skyblue;
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:480px) {
+    .pictures {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.pictures div img {
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 8px black;
+}
+
+@media (max-width:480px) {
+    .pictures div img {
+        width: 420px;
+        height: 550px;
+        box-shadow: 0px 0px 8px black;
+    }
+}
